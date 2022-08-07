@@ -40,3 +40,115 @@ a, a:hover, a:visited {
     font-size: 14px;
     font-weight: 300;
 }
+#sales{
+    padding: 40px 10px;
+}
+.DSMeta-Card-container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.DSMeta-Card{
+    padding: 30px 10px;
+    background-color: #283142;
+    border-radius: 10px;
+}
+.DSMeta-sales-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #676FFF;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.DSMeta-form-control-container{
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+.DSMeta-form-control{
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #9AAABE;
+    padding: 0 20px;
+}
+.DSMeta-sales-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.DSMeta-sales-table thead{
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E9E9E9;
+}
+.DSMeta-sales-table tbody{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #CFCFCF;
+}
+.DSMeta-sales-table tbody tr{
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+.DSMeta-sales-table tbody tr:nth-child(odd){
+    background-color: #242C3B;
+}
+.DSMeta-sales-table tbody tr:hover>td{
+    background-color: #384459;
+}
+.DSMeta-btn-notificar-container{
+    display: flex;
+    justify-content: center;
+}
+.DSMeta-btn-notificar{
+    height: 45px;
+    width: 45px;
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    background: rgba(255, 107, 114, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.DSMeta-btn-notificar img{
+    width: 19px;
+}
+.DSMeta576{
+    display: none;
+}
+.DSMeta992{
+    display: none;
+}
+@Media (min-width: 576px){
+    .DSMeta576{
+        display: table-cell;
+    }
+    .DSMeta-Card{
+        padding: 35px;
+    }
+    .DSMeta-sales-table tbody{
+        font-size: 18px;
+    }
+    .DSMeta-sales-table tbody tr{
+        height: 62px;
+    }
+}
+@media (min-width: 992px){
+    .DSMeta992{
+        display: table-cell;
+    }
+}
+
+
+
+
+
+
+
+
